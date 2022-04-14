@@ -1,0 +1,176 @@
+body{
+    text-align: center;
+    color: black;
+    font-family: "open sans";
+    background-color: black;
+}
+/*navbar*/
+.oscur{
+    background-color: black;
+    padding: 20px 50px 20px 50px;
+    text-align: left;
+}
+.icono{
+    filter: invert(100%);
+    width: 20px;
+    padding-right: 60px;
+}
+nav li{
+    display: inline-block;
+    
+     
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 6px;
+    
+}
+/*navbar*/
+
+/*hero*/
+.hero-section{
+    background-image: url("../img/bg-hero.jpg");
+    height: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    text-shadow: 0px 2px 5px white ;
+    color: white;
+    text-align: right;
+    
+}
+.hero-section h1{
+    background-color: black;
+    margin: 0px;
+    padding: auto;
+}
+header h1{
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+}
+header h2{
+    font-size: 40px;
+    font-weight: 1000px;
+}
+
+/*hero*/
+
+/*ubicacion*/
+
+
+#ubicacion h2{
+    font-size: 45px;
+    margin: 40px 0px 20px 0px;
+}
+#ubicacion p{
+    font-size: 25px;
+}
+#ubicacion img{
+
+        top: 58px;
+        left: 0px;
+        max-width: 100%;
+        height: 727px;
+        padding-top: 80px;
+    
+}
+/*proxima charla*/
+#proxima-charla{
+    background-color: black ;
+    padding: 100px;
+    color: white;
+}
+
+
+#proxima-charla img, .charla-texto{
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+}
+.charla-texto{
+    width: 600px;
+    text-align: left;
+    padding-left: 20px;
+}
+.charla-speaker{
+    text-align:right;
+}
+/*ubicacion*/
+
+#eventos{
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: #1E1A13;
+    
+    
+}
+#eventos h2{
+    font-weight: 200;
+    font-size: 47px;
+
+}
+#eventos h3{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.evento h2, .evento{
+    width: 390px;
+    display: inline-block;
+    vertical-align: middle;
+    /*padding: 50px;
+    background-color: azure;*/
+    
+}
+/*iguana*/
+#iguana{
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    
+    
+}
+#iguana h2{
+    font-weight: bold;
+}
+#iguana .miiguana .fa fa-eye{
+    filter: invert(100%);
+}
+.miiguana h2, .miiguana{
+    width: 390px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    
+}
+.miiguana img{
+    width: 316px;
+    height: 202px;
+}
+.miiguana h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*footer*/
+footer{
+    background-color: #1E1A13;
+    
+}
+footer #contacto, .oscuro{
+    text-align: center;
+    color: black;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
